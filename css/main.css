@@ -1,0 +1,137 @@
+        html,
+        body {
+            font-family: Roboto;
+        }
+
+        .image {
+            background: url(../Images/hero.jpg) center center;
+        }
+        /*Nav for links, you can delete this if is needed*/
+        .navbar {
+            background-color: transparent;
+        }
+
+        #navbarSupportedContent {
+            text-align: center;
+        }
+
+
+        a.p-2 {
+            color: white;
+            font-size: 1.2em;
+        }
+
+        a.dropdown-item {
+            color: #747d8c;
+            transition: 0.2s ease-in;
+        }
+        
+        a.dropdown-item:hover {
+            color: whitesmoke;
+            background-color: #F97F51;
+        }
+        /*--Jumbotron section--*/
+        
+        .jumbotron {
+            /*background: url(../Images/hero.jpg) center center;*/
+            /*IF you read this, please update. No idead how to make responsive*/
+            background-color: transparent;
+            color: white;
+            /*background-attachment: fixed;
+            background-size: cover;*/
+            min-height: 500px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        /*------main Header----*/
+        
+        h1.main-text {
+            font-size: 3em;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        p.sub-text {
+            color: #3d3d3d;
+            text-transform: capitalize;
+        }
+        /*---Buttons---*/
+        
+        .btn {
+            display: inline-block;
+            background: #cd6133;
+            color: whitesmoke;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            transition: all ease-in-out 300ms;
+        }
+        
+        .btn:hover {
+            background: #F97F51;
+            color: whitesmoke;
+            box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+            transform: translate(0px, -6px) scale(1.1);
+        }
+        
+        .btn:focus {
+            outline: none;
+        }
+        /*================Contact=================*/
+        
+        .contact-info h2 {
+            font-family: cursive;
+            font-size: 32px;
+            margin-top: 8px;
+            margin-bottom: 25px;
+        }
+        
+        .contact-info {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            padding: 3px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .info {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .contact-info li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        a {
+            background: transparent;
+        }
+        
+        .left {
+            float: left;
+            margin-right: .3em;
+        }
+        
+        .right {
+            float: right;
+            margin-left: .3em;
+        }
+        /*================Specialty==============*/
+        
+
+
+        /*================Footer=================*/
+        
+        .footer {
+            background-color: #f26522;
+            color: #fff;
+            padding: 40px 0 30px;
+            font-weight: 300;
+        }
+        /*================/Footer=================*/
